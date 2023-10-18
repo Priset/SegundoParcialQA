@@ -19,6 +19,7 @@ public class TestBase {
 
     protected SettingsSection settingsSection = new SettingsSection();
 
+    protected SignUpPage signUpPage = new SignUpPage();
     @BeforeEach
     public void openBroswer() {
         Session.getSession().goTo("https://todo.ly/");
